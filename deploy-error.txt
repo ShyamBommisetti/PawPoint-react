@@ -1,0 +1,10 @@
+Error: spawn ENAMETOOLONG
+    at ChildProcess.spawn (node:internal/child_process:420:11)
+    at Object.spawn (node:child_process:753:9)
+    at C:\Users\Bommisetti Shyam\OneDrive\Desktop\Personal Projects\react-project\pawpoint-store\node_modules\gh-pages\lib\git.js:30:22
+    at new Promise (<anonymous>)
+    at spawn (C:\Users\Bommisetti Shyam\OneDrive\Desktop\Personal Projects\react-project\pawpoint-store\node_modules\gh-pages\lib\git.js:29:10)
+    at Git.exec (C:\Users\Bommisetti Shyam\OneDrive\Desktop\Personal Projects\react-project\pawpoint-store\node_modules\gh-pages\lib\git.js:69:10)
+    at Git.rm (C:\Users\Bommisetti Shyam\OneDrive\Desktop\Personal Projects\react-project\pawpoint-store\node_modules\gh-pages\lib\git.js:146:15)
+    at C:\Users\Bommisetti Shyam\OneDrive\Desktop\Personal Projects\react-project\pawpoint-store\node_modules\gh-pages\lib\index.js:188:22
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
