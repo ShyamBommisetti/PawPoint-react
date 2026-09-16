@@ -8,7 +8,7 @@ import InventoryPage from "@/pages/Inventory";
 export default function App() {
   return (
     <StoreProvider>
-      <BrowserRouter>
+      <BrowserRouter basename="PawPoint-react">
         <Routes>
           <Route path="/" element={<LoginPage />} />
           <Route path="/store" element={<StorePage />} />
